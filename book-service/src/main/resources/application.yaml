@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: book-service
+
+eureka:
+  instance:
+    hostname: ws-21446
+
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://ws-21446:8761/eureka/

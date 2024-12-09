@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: rentalService
+
+eureka:
+  instance:
+    hostname: WS-21447
+
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://WS-21446:8761/eureka/
